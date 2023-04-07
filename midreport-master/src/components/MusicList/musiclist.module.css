@@ -1,0 +1,36 @@
+.headerTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  padding: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .headerTitle {
+      font-size: 3rem;
+    }
+  }
+  
+  .headerSlogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    opacity: 0.6;
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+  }
+  
+  .hrHeaderLine {
+    margin: 25px auto 30px;
+    padding: 0;
+    width: 100px;
+    border: 0;
+    border-top: solid 6px;
+    border-color: #f08840;
+    opacity: 1;
+  }

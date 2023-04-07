@@ -1,0 +1,15 @@
+.box{
+    width: 100%;
+    height: 600px;
+}
+.innerbox{
+    width: 1000px;
+}
+.img{
+    width: 1000px;   
+    height: auto;   
+}
+.boxItem{
+    width: 100%;
+    height: 600px;
+} 

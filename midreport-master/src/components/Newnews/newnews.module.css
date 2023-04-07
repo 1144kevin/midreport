@@ -1,0 +1,57 @@
+.newsTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .newsTitle {
+      font-size: 3rem;
+    }
+  }
+  
+  .newsSlogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    opacity: 0.6;
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+  }
+  
+  .hrHeaderLine {
+    margin: 25px auto 30px;
+    padding: 0;
+    width: 100px;
+    border: 0;
+    border-top: solid 6px;
+    border-color: #f08840;
+    opacity: 1;
+  }
+  .tt{
+    background-image: url(../../../public/images/newsbgimg.png);
+    background-size: cover;
+  }
+  .leftdownTitle{
+   margin: 1.8rem 0 0 1.8rem;
+  }
+  .rightwords{
+  }
+  .button{
+    width: 6rem;
+    height: 2rem;
+    font-size: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+  }
+  .button:hover{
+    background-color: white;
+    color: black;
+  }
